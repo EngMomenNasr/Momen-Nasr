@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+      @apply select-none font-poppins;
+    }
+
+    @media(max-width:600px){
+      .nav-links{
+        position: absolute;
+        top: 100%;
+        margin-top: 1rem;
+        width: 100%;
+        padding: 1rem;
+        color: white;;
+        background: black;
+        text-align: center;
+        flex-direction: column;
+        border-radius: 2rem;
+        display: none;
+      }
+      .nav-links li{
+        margin-top: 1rem;
+        padding: 1rem;
+      }
+      .nav-links.active{
+        display: block;
+      }
+    }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
