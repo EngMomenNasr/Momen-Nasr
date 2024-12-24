@@ -17,3 +17,9 @@ document.querySelectorAll('.github-link').forEach((element) => {
         window.open('https://github.com/EngMomenNasr', '_blank');
     });
 });
+
+// fixed text-nowrap
+document.querySelectorAll('.text-nowrap').forEach((element) => {
+    element.style.whiteSpace = 'nowrap';
+});
+
