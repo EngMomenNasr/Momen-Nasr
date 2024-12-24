@@ -639,6 +639,18 @@ body {
   margin-top: 100px;
 }
 
+.mb-\[2rem\] {
+  margin-bottom: 2rem;
+}
+
+.mb-\[1rem\] {
+  margin-bottom: 1rem;
+}
+
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
 .flex {
   display: flex;
 }
@@ -899,6 +911,36 @@ body {
   padding-right: 2%;
 }
 
+.py-\[6rem\] {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.py-\[7rem\] {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.py-\[6\.5rem\] {
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+}
+
+.py-\[6\.5\] {
+  padding-top: 6.5;
+  padding-bottom: 6.5;
+}
+
+.py-\[2rem\] {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-\[2\.5rem\] {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -1145,6 +1187,10 @@ body {
 
   .sm\:text-\[47px\] {
     font-size: 47px;
+  }
+
+  .sm\:text-\[35px\] {
+    font-size: 35px;
   }
 
   .sm\:backdrop-blur-\[6px\] {
